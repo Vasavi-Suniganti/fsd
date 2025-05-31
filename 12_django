@@ -1,0 +1,9 @@
+python –version
+py -m venv myworld
+myworld\Scripts\activate.bat
+py -m pip install Django
+django-admin –version
+django-admin startproject my_tennis_club
+cd my_tennis_club
+py manage.py runserver
+http://127.0.0.1:8000/
